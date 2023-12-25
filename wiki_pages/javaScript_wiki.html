@@ -16,7 +16,7 @@
     <ul>
         <li><strong>let: </strong>Declara uma variável com escopo local;</li>
         <li><strong>var: </strong>Declara uma variável com escopo global (CAIU EM DESUSO);</li>
-        <li><strong>const: </strong>Declara uma contante com escopo local.</li>
+        <li><strong>const: </strong>Declara uma constante com escopo local.</li>
     </ul>
 
     <h2>Operadores aritméticos</h2>
@@ -60,7 +60,60 @@
         <li><strong>! : </strong>Negação da comparação</li>
     </ul>
 
-    <h2>Métodos e propriedades para vetores</h2>
+    <h2>Estruturas de controle</h2>
+    <p>Síntaxe usada para manipulação das estruturas de controle.</p>
+
+    <ul>
+        <li><strong><u>Estruturas condicionais:</u></strong></li>
+        <ul>
+            <li><strong>if([condição]): </strong>Executa um bloco de comandos se a condição for verdadeira;</li>
+            <li><strong>else if([condição]): </strong>Executa um bloco de comandos se a condição for verdadeira e as anteriores vinculadas a essa falsa.</li>
+            <li><strong>else: </strong>Executa um bloco de comandos se todas as condições anteriores que estão vinculadas a essa é falsa.</li>
+        </ul>
+
+        <li><strong><u>Estruturas de decisão:</u></strong></li>
+        <ul>
+            <li><strong>switch ([variavel]): </strong>Define o escopo da estrutura <i>switch</i> e qual variável vai ser comparada;</li>
+            <li><strong>case [valor]: </strong>Compara e executa um bloco de comandos se o valor definido for igual a variavel;</li>
+            <li><strong>break: </strong>Quebra o escopo atual do código, nesse caso sai da estrutura <i>switch.</i></li>
+            <li><strong>default: </strong>Defini um bloco de comandos padrão caso a variável não seja igual a nenhum valor definido.</li>
+        </ul>
+
+        <li><strong><u>Estruturas de repetição:</u></strong></li>
+        <ul>
+            <li><strong>for([variavel] = [valor inicial], [condição], [incrementação/decrementação da variavel]): </strong>repete um bloco de comandos até a condição ser falsa, normalmente usada para laços definidos;</li>
+            <li><strong>while([condição]): </strong>repete um bloco de comandos até a condição ser falsa, normalmente usada para laços indefinidos;</li>
+            <li><strong>do { [bloco de comandos] } while([condição]): </strong>estrutura semelhante ao while, porém seu bloco de comandos é processado ao menos uma vez.</li>
+        </ul>
+    </ul>
+
+    <h2>Funções</h2>
+    <p>Síntaxe usada para manipulação das funções.</p>
+
+    <ul>
+        <li><strong>function: </strong>Declara uma função;</li>
+        <li><strong>return: </strong>Retorna um valor, ou objetdo, da função.</li>
+    </ul>
+
+    <h2>Classes e objetos</h2>
+    <p>Síntaxe usada para manipulação de classes e objetos.</p>
+
+    <ul>
+        <li><strong>class: </strong>Declara uma classe.</li>
+        <li><strong>constructor( [variaveis] ): </strong>Método especial para declarar propriedades da classe.</li>
+        <li><strong>this: </strong>Chama um método ou propriedade da classe no próprio escopo dela.</li>
+        <li><strong>new: </strong>Instância um novo objeto.</li>
+    </ul>
+
+    <h2>Strings</h2>
+    <p>Síntaxe usada para Manipulação de strings</p>
+
+    <ul>
+        <li><strong>+: </strong>Contatena strings;</li>
+        <li><strong>${ [Variavel] }: </strong>Interpolação de strings.</li>
+    </ul>
+
+    <h2>Métodos e propriedades padrões para vetores</h2>
     <p>Lista de métodos e propriedades usados para vetores na biblioteca padrão do JavaScript.</p>
 
     <ul>
@@ -78,8 +131,8 @@
 
     </ul>
 
-    <h2>Objetos</h2>
-    <p>Lista dos objetos mais usados da biblioteca padrão do JavaScript, e seus métodos ou funções.</p>
+    <h2>Objetos padrões:</h2>
+    <p>Lista dos objetos mais usados da biblioteca padrão do JavaScript, e seus métodos ou propriedades.</p>
     
     <ul>
         <li><strong>console: </strong> representa o console do programa.</li>
