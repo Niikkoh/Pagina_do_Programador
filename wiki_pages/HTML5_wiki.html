@@ -91,19 +91,53 @@
                 <li><strong>"text":</strong> Define como um campo de texto;</li>
                 <li><strong>"number":</strong> Define como um campo numérico;</li>
                 <li><strong>"password":</strong> Define como um campo para senha;</li>
-                <li><strong>"color":</strong> Define como um campo de cor.</li>
+                <li><strong>"checkbox":</strong> Define como um campo para marcação.</li>
+                <li><strong>"radio":</strong> Define que apenas um de dois ou mais campos com o mesmo nome possa ser marcado;</li>
+                <li><strong>"file":</strong> Define como um campo para enviar arquivos.</li>
+                <ul>
+                    <li><strong>multiple:</strong> Permite enviar múltiplos arquivos.</li>
+                </ul>
+                <li><strong>"date":</strong> Define como um campo com calendário;</li>
+                <li><strong>"range":</strong> Define como um campo de scroll.</li>
+                <li><strong>"color":</strong> Define como um campo de cor;</li>
+                <li><strong>"email":</strong> Define como um campo para e-mail;</li>
+                <li><strong>"url":</strong> Define como um campo com URL;</li>
+                <li><strong>"hidden":</strong> Define como um campo invisível ao usuário.</li>
             </ul>
             
-            <li><strong>name= "[Nome do campo]" :</strong> Nome do campo gerado, usado para seu reconhecimento no JavaScript.</li>
+            <li><strong>min=" [valor inteiro] ": </strong> Inteiro mínimo permitido para entrada; </li>
+            <li><strong>max=" [valor inteiro] ": </strong> Inteiro máximo permitido para entrada; </li>
+            <li><strong>value=" [valor inteiro] ": </strong> Define um valor padrão; </li>
+            <li><strong>disabled: </strong> Desabilita o campo.</li>
         </ul>
 
         <li><strong>&lt;button&gt;:</strong> Gera um botão ao qual o usuário pode interagir.</li>
         <ul>
             <li><strong>type= :</strong> Define o tipo de botão.</li>
             <ul>
-                <li><strong>"submit":</strong> Define como um botão para confirmar dados de um formulário.</li>
+                <li><strong>"button":</strong> Gera um botão clicável.</li>
+                <li><strong>"submit":</strong> Envia o formulário vinculado.</li>
+                <li><strong>"reset":</strong> Reseta o formulário vinculado.</li>
             </ul>
         </ul>
+
+        <li><strong>&lt;select&gt;:</strong> Gera uma caixa com opções predefinidas.</li>
+            <ul>
+                <li><strong>multiple :</strong> Permite que o usuário selecione múltiplas opções.</li>
+            </ul>
+        <li><strong>&lt;option&gt;:</strong> Defini como uma opção da caixa select.</li>
+        <ul>
+            <li><strong>value= "[Nome do valor]" :</strong> Nome da opção escolhida que vai para o sistema;</li>
+            <li><strong>selected :</strong> Defini qual opção está selecionada.</li>
+        </ul>
+
+        <li><strong>&lt;textarea&gt;:</strong> Gera uma caixa de texto grande.</li>
+        <ul>
+            <li><strong>rows = " [numero natural] ":</strong> Defini o número de linhas que a caixa de texto vai exibir no layout.</li>
+            <li><strong>cols = " [numero natural] ":</strong> Defini o número de colunas que a caixa de texto vai exibir no layout.</li>
+        </ul>
+
+        <li><strong>&lt;label&gt;:</strong> Representa a legenda para um item em uma interface de usuário.</li>
     </ul>
 
     <h2>Tags de mídia:</h2>
@@ -143,7 +177,9 @@
      <p><strong>Atributos que acionam um comando em JavaScript ao ocorrer determinado evento.</strong></p>
 
     <ul>
-        <li><strong>onsubmit = "[Comando JavaScript]": </strong> Aciona ao clicar em um botão do tipo <i>submit</i> no elemento atribuído</li>
+        <li><strong>onclick = "[Comando JavaScript]": </strong> Aciona ao clicar com o mouse;</li>
+        <li><strong>onsubmit = "[Comando JavaScript]": </strong> Aciona ao enviar o formulário;</li>
+        <li><strong>onmouseover = "[Comando JavaScript]": </strong> Aciona ao passar o mouse sobre.</li>
     </ul>
 
     <br>
