@@ -1,12 +1,13 @@
 
-body {
-    background-color: #202124;
-    color: #ffffff;
+/*=============================================*/
+* {
     font-family: 'Courier New', Courier, monospace;
 }
+/*=============================================*/
 
-h1{
-    color: #ffc200;
+body{
+    color: #ffffff;
+    background-color: #202124;
 }
 
 h2 {
@@ -29,3 +30,39 @@ mark{
 a{
     color: #ffffff;
 }
+
+/*=============================================*/
+
+#header{
+    background-color: #343434;
+    color: #ffc200;
+}
+
+#left-side-menu{
+    background-color: #343434;
+}
+
+#list-pages{
+    background-color: #343434;
+}
+
+/*=============================================*/
+
+/*[atrib]*/
+[title = "Javascript"]{
+    color:#F0DB4F;
+}
+
+/*[atrib]*/
+[title = "HTML5"]{
+    color:#F06529;
+}
+
+/*[atrib]*/
+[title = "CSS3"]{
+    color:#2965f1;
+}
+
+/*=============================================*/
+
+
