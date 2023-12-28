@@ -1,0 +1,31 @@
+
+body {
+    background-color: #202124;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #ffc200;
+}
+
+h2 {
+    color: #D72E82;
+}
+
+p{
+    color: #b2b2b2;
+}
+
+strong {
+    color: #65BCFF;
+}
+
+mark{
+    color: #65BCFF;
+    background-color: rgba(255, 255, 255, 0.196);
+}
+
+a{
+    color: #ffffff;
+}
