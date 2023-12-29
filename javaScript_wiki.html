@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Wiki</title>
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
 
 <body>
 
     <div id="header">
         <h1 title="JavaScript">JavaScript</h1>
-   </div>
-    
-   <div id="feature">
+    </div>
+
+    <div id="wiki">
         <h2>Variaveis e constantes</h2>
         <p><b>//Tipos de variaveis declaradas no JavaScript.</b></p>
 
@@ -42,7 +42,7 @@
             <li><strong>*=: </strong>Atribuição com multiplicação;</li>
             <li><strong>/=: </strong>Atribuição com divisão.</li>
             <li><strong>%=: </strong>Atribuição com resto de divisão.</li>
-       </ul>
+        </ul>
 
         <h2>Operadores de comparação</h2>
         <p><b>//Operadores usados para comparação de expressões.</b></p>
@@ -54,9 +54,11 @@
             <li><strong>!==: </strong>Compara se o valor ou o formato do conteúdo é diferente;</li>
             <li><strong>>: </strong>Maior que;</li>
             <li><strong>>=: </strong>Maior ou igual que;</li>
-            <li><strong><: </strong>Menor que;</li>
-            <li><strong><=: </strong>Menor ou igual que.</li>
-       </ul>
+            <li><strong>
+                    <: </strong>Menor que;</li>
+            <li><strong>
+                    <=: </strong>Menor ou igual que.</li>
+        </ul>
 
         <h2>Operadores lógicos</h2>
         <p><b>//Operadores usados para lógica de comparações.</b></p>
@@ -65,34 +67,50 @@
             <li><strong>&&: </strong>Ambas as comparações devem ser verdadeiras;</li>
             <li><strong>||: </strong>Uma das comparações deve ser verdadeira;</li>
             <li><strong>!: </strong>Negação da comparação</li>
-       </ul>
+        </ul>
 
         <h2>Estruturas de controle</h2>
         <p><b>//Síntaxe usada para manipulação das estruturas de controle.</b></p>
 
         <ul>
-            <li><strong><u>Estruturas condicionais:</u></strong></li>
-            <ul>
-                <li><strong><u>if</u> ( <mark>[condição]</mark> ): </strong>Executa um bloco de comandos se a condição for verdadeira;</li>
-                <li><strong><u>else if</u> ( <mark>[condição]</mark> ): </strong>Executa um bloco de comandos se a condição for verdadeira e as anteriores vinculadas a essa falsa.</li>
-                <li><strong><u>else</u>: </strong>Executa um bloco de comandos se todas as condições anteriores que estão vinculadas a essa é falsa.</li>
-           </ul>
+            <li><strong><u>Estruturas condicionais:</u></strong>
+                <ul>
+                    <li><strong><u>if</u> ( <mark>[condição]</mark> ): </strong>Executa um bloco de comandos se a
+                        condição for verdadeira;</li>
+                    <li><strong><u>else if</u> ( <mark>[condição]</mark> ): </strong>Executa um bloco de comandos se a
+                        condição for verdadeira e as anteriores vinculadas a essa falsa.</li>
+                    <li><strong><u>else</u>: </strong>Executa um bloco de comandos se todas as condições anteriores que
+                        estão vinculadas a essa é falsa.</li>
+                </ul>
+            </li>
 
-            <li><strong><u>Estruturas de decisão:</u></strong></li>
-            <ul>
-                <li><strong><u>switch</u> ( <mark>[variavel]</mark> ): </strong>Define o escopo da estrutura <i>switch</i> e qual variável vai ser comparada;</li>
-                <li><strong><u>case</u> <mark>[valor]</mark>: </strong>Compara e executa um bloco de comandos se o valor definido for igual a variavel;</li>
-                <li><strong><u>break</u>: </strong>Quebra o escopo atual do código, nesse caso sai da estrutura <i>switch.</i></li>
-                <li><strong><u>default</u>: </strong>Defini um bloco de comandos padrão caso a variável não seja igual a nenhum valor definido.</li>
-           </ul>
+            <li><strong><u>Estruturas de decisão:</u></strong>
+                <ul>
+                    <li><strong><u>switch</u> ( <mark>[variavel]</mark> ): </strong>Define o escopo da estrutura
+                        <i>switch</i> e qual variável vai ser comparada;</li>
+                    <li><strong><u>case</u> <mark>[valor]</mark>: </strong>Compara e executa um bloco de comandos se o
+                        valor definido for igual a variavel;</li>
+                    <li><strong><u>break</u>: </strong>Quebra o escopo atual do código, nesse caso sai da estrutura
+                        <i>switch.</i></li>
+                    <li><strong><u>default</u>: </strong>Defini um bloco de comandos padrão caso a variável não seja
+                        igual a nenhum valor definido.</li>
+                </ul>
+            </li>
 
-            <li><strong><u>Estruturas de repetição:</u></strong></li>
-            <ul>
-                <li><strong><u>for</u> ( <mark>[variavel]</mark> = <mark>[valor inicial]</mark>; <mark>[condição]</mark>; <mark>[incrementação/decrementação da variavel]</mark> ): </strong>repete um bloco de comandos até a condição ser falsa, normalmente usada para laços definidos;</li>
-                <li><strong><u>while</u> ( <mark>[condição]</mark> ): </strong>repete um bloco de comandos até a condição ser falsa, normalmente usada para laços indefinidos;</li>
-                <li><strong><u>do</u> { <mark>[bloco de comandos]</mark> } <u>while</u> ( <mark>[condição]</mark> ): </strong>estrutura semelhante ao while, porém seu bloco de comandos é processado ao menos uma vez.</li>
-           </ul>
-       </ul>
+            <li><strong><u>Estruturas de repetição:</u></strong>
+                <ul>
+                    <li><strong><u>for</u> ( <mark>[variavel]</mark> = <mark>[valor inicial]</mark>;
+                            <mark>[condição]</mark>; <mark>[incrementação/decrementação da variavel]</mark> ):
+                        </strong>repete um bloco de comandos até a condição ser falsa, normalmente usada para laços
+                        definidos;</li>
+                    <li><strong><u>while</u> ( <mark>[condição]</mark> ): </strong>repete um bloco de comandos até a
+                        condição ser falsa, normalmente usada para laços indefinidos;</li>
+                    <li><strong><u>do</u> { <mark>[bloco de comandos]</mark> } <u>while</u> ( <mark>[condição]</mark> ):
+                        </strong>estrutura semelhante ao while, porém seu bloco de comandos é processado ao menos uma
+                        vez.</li>
+                </ul>
+            </li>
+        </ul>
 
         <h2>Funções</h2>
         <p><b>//Síntaxe usada para manipulação das funções.</b></p>
@@ -107,10 +125,11 @@
 
         <ul>
             <li><strong><u>class</u>: </strong>Declara uma classe.</li>
-            <li><strong><u>constructor</u>( <mark>[variaveis]</mark> ): </strong>Método especial para declarar propriedades da classe.</li>
+            <li><strong><u>constructor</u>( <mark>[variaveis]</mark> ): </strong>Método especial para declarar
+                propriedades da classe.</li>
             <li><strong><u>this</u>: </strong>Chama um método ou propriedade da classe no próprio escopo dela.</li>
             <li><strong><u>new</u>: </strong>Instância um novo objeto.</li>
-       </ul>
+        </ul>
 
         <h2>Strings</h2>
         <p><b>//Síntaxe usada para Manipulação de strings</b></p>
@@ -118,42 +137,46 @@
         <ul>
             <li><strong>+: </strong>Contatena strings;</li>
             <li><strong>${ <mark>[Variavel]</mark> }: </strong>Interpolação de strings.</li>
-       </ul>
+        </ul>
 
         <h2>Métodos e propriedades padrões para vetores</h2>
         <p><b>//Lista de métodos e propriedades usados para vetores na biblioteca padrão do JavaScript.</b></p>
 
         <ul>
 
-            <li><strong><u>Métodos:</u></strong></li>
-            <ul>
-                <li><strong><u>.shift()</u>: </strong>Remove o primeiro elemento do vetor e retorna;</li>
-                <li><strong><u>.pop()</u>: </strong>Remove o ultimo elemento do vetor e retorna.</li>
-           </ul>
+            <li><strong><u>Métodos:</u></strong>
+                <ul>
+                    <li><strong><u>.shift()</u>: </strong>Remove o primeiro elemento do vetor e retorna;</li>
+                    <li><strong><u>.pop()</u>: </strong>Remove o ultimo elemento do vetor e retorna.</li>
+                </ul>
+            </li>
 
-            <li><strong><u>Propriedades:</u></strong></li>
-            <ul>
-                <li><strong><u>.length</u>: </strong>Informa o tamanho do vetor.</li>
-           </ul>
+            <li><strong><u>Propriedades:</u></strong>
+                <ul>
+                    <li><strong><u>.length</u>: </strong>Informa o tamanho do vetor.</li>
+                </ul>
+            </li>
 
-       </ul>
+        </ul>
 
         <h2>Objetos padrões:</h2>
-        <p><b>//Lista dos objetos mais usados da biblioteca padrão do JavaScript, e seus métodos ou propriedades.</b></p>
-    
+        <p><b>//Lista dos objetos mais usados da biblioteca padrão do JavaScript, e seus métodos ou propriedades.</b>
+        </p>
+
         <ul>
-            <li><strong><u>console</u>: </strong> representa o console do programa.</li>
-            <ul>
-                <li><strong><u>.log</u> ( <mark>[conteúdo]</mark> ):</strong> exibe o conteúdo no console.</li>
-           </ul>
-       </ul>
-   </div>
+            <li><strong><u>console</u>: </strong> representa o console do programa.
+                <ul>
+                    <li><strong><u>.log</u> ( <mark>[conteúdo]</mark> ):</strong> exibe o conteúdo no console.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
     <div id="left-side-menu">
         <ul>
             <li><a href="/index.html">Voltar</a></li>
-       </ul>
-   </div>
+        </ul>
+    </div>
 
 </body>
 

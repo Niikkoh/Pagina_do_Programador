@@ -5,8 +5,11 @@
 }
 /*=============================================*/
 
-body{
+body, a{
     color: #ffffff;
+}
+
+body{
     background-color: #202124;
 }
 
@@ -18,32 +21,37 @@ p{
     color: #b2b2b2;
 }
 
-strong {
+#wiki li strong, #wiki li mark {
+    
+    color: #2087d6;
+}
+
+#wiki li li strong, #wiki li li mark {
     color: #65BCFF;
+}
+
+#wiki li li li strong, #wiki li li li mark {
+    color: #a3d4fa;
+}
+
+#wiki li li li li strong, #wiki li li li li mark {
+    color: #c6e7ff;
 }
 
 mark{
-    color: #65BCFF;
-    background-color: rgba(255, 255, 255, 0.196);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-a{
-    color: #ffffff;
-}
+
 
 /*=============================================*/
 
-#header{
-    background-color: #343434;
-    color: #ffc200;
-}
-
-#left-side-menu{
+#header, #left-side-menu, #list-pages{
     background-color: #343434;
 }
 
-#list-pages{
-    background-color: #343434;
+#header {
+    color:#F0DB4F;
 }
 
 /*=============================================*/

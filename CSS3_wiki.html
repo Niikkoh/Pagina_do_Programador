@@ -7,7 +7,7 @@
     <title>CSS3 wiki</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <h1 title="CSS3">CSS3</h1>
     </div>
 
-    <div id="content">
+    <div id="wiki">
 
 
         <h2>Seletores CSS:</h2>
@@ -25,41 +25,67 @@
         <ul>
             <li><strong><u>Seletor por tipo</u>:</strong> Busca elementos por uma tag HTML específica;</li>
             <li><strong><u>Seletor por ID <mark>(#)</mark></u>:</strong> Busca elementos através do atributo "id";</li>
-            <li><strong><u>Seletor por Classe <mark>(.)</mark></u>:</strong> Busca elementos através do atributo "class";</li>
+            <li><strong><u>Seletor por Classe <mark>(.)</mark></u>:</strong> Busca elementos através do atributo
+                "class";</li>
             <li><strong><u>Seletor Universal <mark>(*)</mark></u>:</strong> Seleciona todos os elementos HTML;</li>
-            <li><strong><u>Seletor de atributo <mark>([atrib])</mark></u>:</strong> Seleciona elementos que possuem um atributo específico, podendo ser também o valor em específico.</li>
-            <ul>
-                <li><strong><u>[atrib = "nome"]</u>:</strong> Seleciona elementos que possuem exatamente o mesmo nome no atributo.</li>
-                <li><strong><u>[atrib ~= "nome"]</u>:</strong> Seleciona elementos que possuem esse nome no atributo separado por espaço.</li>
-                <li><strong><u>[atrib |= "nome"]</u>:</strong> Seleciona elementos que possuem esse nome no atributo separado por hífen.</li>
-                <li><strong><u>[atrib ^= "nome"]</u>:</strong> Seleciona elementos que possuem o mesmo préfixo no atributo.</li>
-                <li><strong><u>[atrib $= "nome"]</u>:</strong> Seleciona elementos que possuem o mesmo sufixo no atributo.</li>
-                <li><strong><u>[atrib *= "nome"]</u>:</strong> Seleciona elementos que possuem a palavra em algum lugar no nome do atributo.</li>
-            </ul>
+            <li><strong><u>Seletor de atributo <mark>([atrib])</mark></u>:</strong> Seleciona elementos que possuem um
+                atributo específico, podendo ser também o valor em específico.
+                <ul>
+                    <li><strong><u>[atrib = "nome"]</u>:</strong> Seleciona elementos que possuem exatamente o mesmo
+                        nome no atributo.</li>
+                    <li><strong><u>[atrib ~= "nome"]</u>:</strong> Seleciona elementos que possuem esse nome no atributo
+                        separado por espaço.</li>
+                    <li><strong><u>[atrib |= "nome"]</u>:</strong> Seleciona elementos que possuem esse nome no atributo
+                        separado por hífen.</li>
+                    <li><strong><u>[atrib ^= "nome"]</u>:</strong> Seleciona elementos que possuem o mesmo préfixo no
+                        atributo.</li>
+                    <li><strong><u>[atrib $= "nome"]</u>:</strong> Seleciona elementos que possuem o mesmo sufixo no
+                        atributo.</li>
+                    <li><strong><u>[atrib *= "nome"]</u>:</strong> Seleciona elementos que possuem a palavra em algum
+                        lugar no nome do atributo.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Combinadores e agrupador de seletores:</h2>
+        <p>//Explicita o tipo de relação entre 2 ou mais seletores</p>
+
+        <ul>
+            <li><strong><u>Agrupador de seletores <mark>(,)</mark></u>:</strong> As regras CSS serão aplicadas para
+                todos os elementos com um dos seletores.</li>
+            <li><strong><u>Elemento com um conjunto de seletores <mark>(sem espaço)</mark></u>:</strong> As regras CSS
+                serão aplicadas para os elementos que tenha ambos os seletores.</li>
+            <li><strong><u>Combinador descendente <mark>(espaço)</mark></u>:</strong> Aplica para todas os seletores decententes dos seletores especificados.</li>
+            <li><strong><u>Combinador filho <mark>(>)</mark></u>:</strong> Aplica para os seletores que são filhos diretos no caminho do seletor especificado.</li>
+            <li><strong><u>Combinador irmão adjacente <mark>(+)</mark></u>:</strong>  Aplica para o seletor irmão adjacente ao seletor especificado.</li>
+            <li><strong><u>Combinador irmão em geral <mark>(~)</mark></u>:</strong> Aplica para todos os irmãos do seletor especificado</li>
         </ul>
 
         <h2>Propriedades de formatação de texto:</h2>
         <p>//Propriedas que envolvem a formatação de texto.</p>
 
         <ul>
-            <li><strong><u>font-weight:</u></strong> - Grossura da fonte.</li>
-            <ul>
-                <li><strong><u>bold;</u></strong> - negrito.</li>
-            </ul>
-            <li><strong><u>text-transform:</u></strong> - Converte todo o texto.</li>
-            <ul>
-                <li><strong><u>uppercase;</u></strong> - em maiusculo.</li>
-            </ul>
+            <li><strong><u>font-weight:</u></strong> - Grossura da fonte.
+                <ul>
+                    <li><strong><u>bold;</u></strong> - negrito.</li>
+                </ul>
+            </li>
+            <li><strong><u>text-transform:</u></strong> - Converte todo o texto.
+                <ul>
+                    <li><strong><u>uppercase;</u></strong> - em maiusculo.</li>
+                </ul>
+            </li>
         </ul>
 
         <h2>Propriedades de cor:</h2>
         <p>//Propriedas que envolvem as cores do elemento.</p>
 
         <ul>
-            <li><strong><u>background:</u></strong> - define o background do elemento.</li>
-            <ul>
-                <li><strong><mark>[cor]</mark>; -</strong> pela cor.</li>
-            </ul>
+            <li><strong><u>background:</u></strong> - define o background do elemento.
+                <ul>
+                    <li><strong><mark>[cor]</mark>; -</strong> pela cor.</li>
+                </ul>
+            </li>
 
             <li><strong><u>color:<mark>[cor]</mark>;</u> -</strong> define a cor do texto.</li>
         </ul>
