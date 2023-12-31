@@ -16,6 +16,10 @@
         <h1 title="CSS3">//CSS3</h1>
     </div>
 
+    <div id="logo">
+        <img src="/assets/images/CSS.png" />
+    </div>
+
     <div id="wiki">
 
 
@@ -70,6 +74,24 @@
             <li><strong><u>inherit;</u></strong> - Defini um valor na propriedade do elemento de acordo com seu elemento pai.</li>
         </ul>
 
+        <h2>Cores:</h2>
+        <p>//Existem várias formas de definir cores utilizando o CSS.</p>
+
+        <ul>
+            <li><strong><u>Cores pré-definidas</u>:</strong> Cores já pré-definidas pelos navegador, com cerca de 140 variedades.
+                <ul>
+                    <li><strong><u>transparent;</u></strong> - Permite que a cor do elemento seja transparente.</li>
+                </ul>
+            </li>
+            <li><strong><u>"currentcolor"</u>: </strong> De forma dinâmica, explicita que a cor da propriedade será a mesma cor das demais;</li>
+            <li><strong><u>Hexadecimal</u>:</strong> Explicita em casas hexadecimais a tonalidade de cada cor primária, onde cada cor é definida por um par de dígitos;</li>
+            <li><strong><u>Hexadecimal com transparência</u>:</strong>Acrescenta mais um par de dígitos para definir a opacidade do elemento;</li>
+            <li><strong><u>RGB</u>:</strong> Informa a cor pela tonalidade das cores primárias, no valor de 0 até 255, ou pela porcentagem;</li>
+            <li><strong><u>RGBA</u>:</strong> Além de informar a tonalidade, informa a transparência da cor, de 0 a 1;</li>
+            <li><strong><u>HSL</u>:</strong> Defini a cor pela matiz (em graus), saturação (%) e luminosidade (%).</li>
+            <li><strong><u>HSLA</u>:</strong> Parâmetro extra do canal alpha para especificar o nível de transparência da cor, de 0 a 1.</li>
+        </ul>
+
         <h2>Propriedades de dimensionamento:</h2>
         <p>//Propriedades que envolvem o dimensionamento de elementos no layout da página.</p>
 
@@ -105,7 +127,33 @@
             <li><strong><u>box-sizing</u>:</strong> - Define que o tamanho do elemento...
                 <ul>
                     <li><strong><u>content-box</u></strong> vai permitir alterar seu tamanho ao alterar o padding ou a borda;</li>
-                    <li><strong><u>border-box</u></strong> vai manter a altura e a largura definida mesmo alterando o padding ou a borda.</li>
+                    <li><strong><u>border-box</u></strong> vai manter a altura e a largura definida mesmo alterando o padding ou a borda;</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Propriedades de formatação de objeto:</h2>
+        <p>//Propriedas que envolvem a manipulação de imagens ou vídeos.</p>
+
+        <ul>
+            <li><strong><u>object-fit</u>:</strong> - Ajusta o objeto dentro de um container.
+                <ul>
+                    <li><strong><u>fill;</u></strong> - Distorce o objeto para preencher o container por completo;</li>
+                    <li><strong><u>contain;</u></strong> - Redimenciona o objeto, sem distorcer, para encostar uma das bordas do objeto com o container;</li>
+                    <li><strong><u>cover;</u></strong> - Redimenciona o objeto, sem distorcer, para preencher o container por completo cortando as sobras;</li>
+                    <li><strong><u>none;</u></strong> - Mantém o tamanho de origem do objeto;</li>
+                    <li><strong><u>scale-down;</u></strong> - Compara o tamanho do objeto com a configuração de valor "contain" ou "none", e escolhe com menor tamanho.</li>
+                </ul>
+            </li>
+            <li><strong><u>object-position</u>:</strong> - Ajusta a posição do objeto no container.
+                <ul>
+                    <li><strong><mark>[Inteiro]</mark>px</strong> - Em pixels;</li>
+                    <li><strong><mark>[Porcentagem]</mark></strong> - Por porcentagem;</li>
+                    <li><strong>left; </strong> - Imagem posicionada a esquerda;</li>
+                    <li><strong>center; </strong> - Imagem centralizada;</li>
+                    <li><strong>right; </strong> - Imagem posicionada a direita.</li>
+                    <li><strong>top; </strong> - Imagem posicionada no topo.</li>
+                    <li><strong>botton; </strong> - Imagem posicionada embaixo.</li>
                 </ul>
             </li>
         </ul>

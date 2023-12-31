@@ -7,9 +7,6 @@
 
 body{
     color: #ffffff;
-}
-
-body{
     background-color: #202124;
 }
 
@@ -33,13 +30,38 @@ mark{
     
     color:#F0DB4F;
 
-    padding:10px 0px 10px 50px;
+    padding:10px 0px 10px 0px;
     max-width: 1080px;
-    min-height: 50px;
+    height: 100px;
     margin:auto;
     box-sizing: border-box;
 }
 
+#header h1{
+    text-align: center;
+}
+
+#logo {
+
+    height: 100px;
+    width: 100px;
+
+    margin:20px auto;
+    border: 5px solid rgb(81, 81, 81);
+    padding: 8px;
+
+    box-sizing: border-box;
+
+    background-color: rgba(255, 255, 255, 0.62);
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+    
+    object-fit: contain;
+    object-position: 50% 50%;
+}
 
 #wiki {
     max-width: 1080px;
