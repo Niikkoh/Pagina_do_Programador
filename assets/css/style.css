@@ -41,6 +41,16 @@ mark{
     text-align: center;
 }
 
+#header, #left-side-menu {
+    
+    background: url('../images/background-header.jpg')
+                #353435
+                center / cover
+                no-repeat;
+            
+    background-blend-mode:color-burn;
+}
+
 #logo {
 
     height: 100px;
@@ -108,7 +118,7 @@ mark{
     padding: 20px 20px;
 }
 
-#header, #left-side-menu, #list-pages{
+#left-side-menu, #list-pages{
     background-color: #343434;
 }
 
@@ -127,7 +137,7 @@ mark{
 
 /*[atrib]*/
 [title = "CSS3"]{
-    color:#2965f1;
+    color:#65BCFF;
 }
 
 /*=============================================*/
