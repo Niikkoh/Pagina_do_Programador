@@ -63,6 +63,8 @@ mark{
     box-sizing: border-box;
 
     background-color: rgba(255, 255, 255, 0.62);
+
+    border-radius: 50%;
 }
 
 #logo img{
@@ -78,8 +80,27 @@ mark{
     margin:auto;
 }
 
+#wiki > ul{
+
+    padding: 30px;
+
+    border-image: linear-gradient(#ffffff, #D72E82)
+                  5 / 2px / 2
+                  stretch;
+
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgb(215, 46, 130, 0.1))
+                center/cover
+                no-repeat;
+}
+
+#wiki ul li{
+    background: rgba(255, 255, 255, 0.03);
+}
+
 #wiki li{
     margin-top: 10px;
+
+    border: thin solid rgba(255, 255, 255, 0.219);
 }
 
 #wiki li strong, #wiki li mark {
