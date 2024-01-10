@@ -24,7 +24,7 @@
 
 
         <h2>Seletores CSS:</h2>
-        <p>//Define quais elementos que serão estilizados.</p>
+        <p>/*Define quais elementos que serão estilizados.*/</p>
 
         <ul>
             <li><strong><u>Seletor por tipo</u>:</strong> Busca elementos por uma tag HTML específica;</li>
@@ -52,7 +52,7 @@
         </ul>
 
         <h2>Combinadores e agrupador de seletores:</h2>
-        <p>//Explicita o tipo de relação entre 2 ou mais seletores</p>
+        <p>/*Explicita o tipo de relação entre 2 ou mais seletores*/</p>
 
         <ul>
             <li><strong><u>Agrupador de seletores <mark>(,)</mark></u>:</strong> As regras CSS serão aplicadas para
@@ -69,8 +69,27 @@
                 seletor especificado</li>
         </ul>
 
+        <h2>Regras CSS:</h2>
+        <p>/*Regras definidas para o arquivo CSS.*/</p>
+
+        <ul>
+            <li><strong><u>@font-face</u> </strong> - Declara uma fonte personalizada para uso.
+                <ul>
+                    <li><strong><u>font-family</u>:</strong> - Defini um nome para a fonte.</li>
+                    <li><strong><u>src</u>:</strong> - Informa a origem da fonte.
+                        <ul>
+                            <li><strong><u>url( <mark>[link]</mark> ou <mark>[diretório]</mark>)</u>;</strong> - Informa pelo link ou diretório;</li>
+                            <li><strong><u>local()</u>;</strong> - Procura a fonte no computador do usuário.</li>
+                        </ul>
+                    </li>
+                    <li><strong><u>font-weight: </u></strong> - Declara qual a espessura dessa fonte.</li>
+                </ul>
+            </li>
+            <li><strong><u>@import url(" <mark>[Link]</mark> ");</u> </strong> - Importa um código já escrito. </li>
+        </ul>
+
         <h2>Palavras chaves comuns:</h2>
-        <p>//Palavras chaves que são aceitas como atributo em diversas propriedades no CSS.</p>
+        <p>/*Palavras chaves que são aceitas como atributo em diversas propriedades no CSS.*/</p>
 
         <ul>
             <li><strong><u>auto</u>;</strong> - Defini um valor automático considerado apropriado para a propriedade do
@@ -81,7 +100,7 @@
         </ul>
 
         <h2>Cores:</h2>
-        <p>//Existem várias formas de definir cores utilizando o CSS.</p>
+        <p>/*Existem várias formas de definir cores utilizando o CSS.*/</p>
 
         <ul>
             <li><strong><u>Cores pré-definidas</u>:</strong> Cores já pré-definidas pelos navegador, com cerca de 140
@@ -106,7 +125,7 @@
         </ul>
 
         <h2>Propriedades de dimensionamento:</h2>
-        <p>//Propriedades que envolvem o dimensionamento de elementos no layout da página.</p>
+        <p>/*Propriedades que envolvem o dimensionamento de elementos no layout da página.*/</p>
 
         <ul>
             <li><strong><u>width</u>:</strong> - Define a largura do elemento;</li>
@@ -152,7 +171,7 @@
         </ul>
 
         <h2>Propriedades de formatação de objeto:</h2>
-        <p>//Propriedas que envolvem a manipulação de imagens ou vídeos.</p>
+        <p>/*Propriedas que envolvem a manipulação de imagens ou vídeos.*/</p>
 
         <ul>
             <li><strong><u>object-fit</u>:</strong> - Ajusta o objeto dentro de um container.
@@ -181,7 +200,7 @@
         </ul>
 
         <h2>Propriedades de background:</h2>
-        <p>//Propriedas que envolvem a manipulação de um background de um container.</p>
+        <p>/*Propriedas que envolvem a manipulação de um background de um container.*/</p>
 
         <ul>
             <li><strong><u>background</u>:</strong> - propriedade resumida de outras propriedades que envolvam background;</li>
@@ -250,7 +269,7 @@
         </ul>
 
         <h2>Propriedades de borda:</h2>
-        <p>//Propriedades que envolve manipular as bordas do container</p>
+        <p>/*Propriedades que envolve manipular as bordas do container.*/</p>
 
         <ul>
             <li><strong><u>border</u>: </strong> - propriedade resumida de outras propriedades que envolvem bordas;</li>
@@ -299,14 +318,49 @@
         </ul>
 
         <h2>Propriedades de formatação de texto:</h2>
-        <p>//Propriedas que envolvem a formatação de texto.</p>
+        <p>/*Propriedas que envolvem a formatação de texto.*/</p>
 
         <ul>
-            <li><strong><u>font-weight</u>:</strong> - Grossura da fonte.
+            <li><strong><u>font</u>:</strong> - Propriedade resumida de fontes; </li>
+            <li><strong><u>font-family</u>:</strong> - Define uma fonte; </li>
+            <li><strong><u>font-size</u>:</strong> - Define o tamanho da fonte.
                 <ul>
-                    <li><strong><u>bold</u>;</strong> - negrito.</li>
+                    <li><strong><u><mark>[inteiro]</mark>px</u>;</strong> - Por um valor absoluto; </li>
+                    <li><strong><u><mark>xx-small</mark></u>;</strong> - Valor ultra pequeno relativo; </li>
+                    <li><strong><u><mark>x-small</mark></u>;</strong> - Valor muito pequeno relativo; </li>
+                    <li><strong><u><mark>small</mark></u>;</strong> - Valor pequeno relativo; </li>
+                    <li><strong><u><mark>medium</mark></u>;</strong> - Valor médio relativo; </li>
+                    <li><strong><u><mark>large</mark></u>;</strong> - Valor grande relativo; </li>
+                    <li><strong><u><mark>x-large</mark></u>;</strong> - Valor muito grande relativo; </li>
+                    <li><strong><u><mark>xx-large</mark></u>;</strong> - Valor ultra grande relativo; </li>
+                    <li><strong><u><mark>smaller</mark></u>;</strong> - Valor menor que o elemento pai; </li>
+                    <li><strong><u><mark>larger</mark></u>;</strong> - Valor maior que o elemento pai. </li>
                 </ul>
             </li>
+
+            <li><strong><u>font-weight</u>:</strong> - Espessura da fonte.
+                <ul>
+                    <li><strong><u>normal</u>;</strong> - Normal;</li>
+                    <li><strong><u>bold</u>;</strong> - Negrito;</li>
+                    <li><strong><u>lighter</u>;</strong> - Espessura menor que o elemento pai;</li>
+                    <li><strong><u>bolder</u>;</strong> - Espessura maior que o elemento pai.</li>
+                </ul>
+            </li>
+            <li><strong><u>font-style</u>:</strong> - Define o estilo da fonte.
+                <ul>
+                    <li><strong><u>normal</u>;</strong> - Normal;</li>
+                    <li><strong><u>italic</u>;</strong> - Itálico;</li>
+                    <li><strong><u>oblique</u>;</strong> - Oblíquo.</li>
+                </ul>
+            </li>
+            <li><strong><u>line-height</u>:</strong> - Define o espaçamento do texto. </li>
+            <li><strong><u>font-variant</u>:</strong> - Converte o texto em caixa alta com um tamanho menor.
+                <ul>
+                    <li><strong><u>normal</u>;</strong> - Normal;</li>
+                    <li><strong><u>small-caps</u>;</strong> - Aplica a caixa alta;</li>
+                </ul>
+            </li>
+            <li><strong><u>font-stretch</u>:</strong> - Informa a largura da fonte.</li>
             <li><strong><u>text-transform</u>:</strong> - Converte todo o texto.
                 <ul>
                     <li><strong><u>uppercase</u>;</strong> - em maiusculo.</li>
@@ -315,7 +369,7 @@
         </ul>
 
         <h2>Propriedades de cor:</h2>
-        <p>//Propriedas que envolvem as cores do elemento.</p>
+        <p>/*Propriedas que envolvem as cores do elemento.*/</p>
 
         <ul>
             <li><strong><u>color:<mark>[cor]</mark>;</u></strong> - define a cor do texto.</li>
