@@ -353,17 +353,79 @@
                     <li><strong><u>oblique</u>;</strong> - Oblíquo.</li>
                 </ul>
             </li>
-            <li><strong><u>line-height</u>:</strong> - Define o espaçamento do texto. </li>
             <li><strong><u>font-variant</u>:</strong> - Converte o texto em caixa alta com um tamanho menor.
                 <ul>
                     <li><strong><u>normal</u>;</strong> - Normal;</li>
                     <li><strong><u>small-caps</u>;</strong> - Aplica a caixa alta;</li>
                 </ul>
             </li>
-            <li><strong><u>font-stretch</u>:</strong> - Informa a largura da fonte.</li>
+            <li><strong><u>font-stretch</u>:</strong> - Informa a largura da fonte;</li>
+            <li><strong><u>text-align</u>: </strong> - Alinha o texto no contâiner.
+                <ul>
+                    <li><strong><u>left</u>;</strong> - Alinha a esquerda;</li>
+                    <li><strong><u>right</u>;</strong> - Alinha a direita;</li>
+                    <li><strong><u>center</u>;</strong> - Alinha no centro;</li>
+                    <li><strong><u>justify</u>;</strong> - Mantem o alinhamento justificado.</li>
+                </ul>
+            </li>
             <li><strong><u>text-transform</u>:</strong> - Converte todo o texto.
                 <ul>
-                    <li><strong><u>uppercase</u>;</strong> - em maiusculo.</li>
+                    <li><strong><u>none</u>;</strong> - mantém o texto do HTML.</li>
+                    <li><strong><u>capitalize</u>;</strong> - converte o primeiro caractere de cada palavra em maiusculo.</li>
+                    <li><strong><u>uppercase</u>;</strong> - converte o texto todo em maiusculo;</li>
+                    <li><strong><u>lowercase</u>;</strong> - converte o texto todo em minusculo.</li>
+                </ul>
+            </li>
+            <li><strong><u>text-decoration</u>:</strong> -  Propriedade resumida da linha do texto.</li>
+            <li><strong><u>text-decoration-line</u>:</strong> - Adiciona ou remove linhas no texto.
+                <ul>
+                    <li><strong><u>none</u>;</strong> - Remove as linhas do texto;</li>
+                    <li><strong><u>underline</u>;</strong> - Adiciona uma linha na parte inferior do texto;</li>
+                    <li><strong><u>overline</u>;</strong> - Adiciona uma linha no topo do texto;</li>
+                    <li><strong><u>line-through</u>;</strong> - Adiciona uma linha no meio do texto.</li>
+                </ul>
+            </li>
+            <li><strong><u>text-decoration-style</u>:</strong> - Determina o estilo de linha adicionado.
+                <ul>
+                    <li><strong><u>solid</u>;</strong> - Adiciona uma linha contínua;</li>
+                    <li><strong><u>double</u>;</strong> - Adiciona uma linha dupla;</li>
+                    <li><strong><u>dotted</u>;</strong> - Adiciona uma linha pontilhada;</li>
+                    <li><strong><u>dashed</u>;</strong> - Adiciona uma linha traçada;</li>
+                    <li><strong><u>wavy</u>;</strong> - Adiciona uma linha em ondas.</li>
+                </ul>
+            </li>
+            <li><strong><u>text-decoration-color</u>:</strong> - Altera a cor da linha;</li>
+            <li><strong><u>text-decoration-thickness</u>:</strong> - Altera a espessura da linha;</li>
+            <li><strong><u>line-height</u>:</strong> - Define o espaçamento do texto entre as linhas. </li>
+            <li><strong><u>text-indent</u>:</strong> - Determina o espaçamento de um texto no parágrafo;</li>
+            <li><strong><u>letter-spacing</u>:</strong> - Adiciona um espaçamento entre cada caractere do texto;</li>
+            <li><strong><u>word-spacing</u>:</strong> - Adiciona um espaçamento entre cada palavra do texto.</li>
+            <li><strong><u>white-space</u>:</strong> - Define como o espaçamento em branco no texto deve se comportar.
+                <ul>
+                    <li><strong><u>normal</u>;</strong> - As sequências de espaço em branco são acumuladas em só uma, ignora as quebras de linha, preserva limite do container;</li>
+                    <li><strong><u>nowrap</u>;</strong> - As sequências de espaço em branco são acumuladas em só uma, ignora o limite do container;</li>
+                    <li><strong><u>pre</u>;</strong> - Os espaços em branco e as quebras de linha são mantidas igual a escrita no HTML, ignora o limite do container;</li>
+                    <li><strong><u>pre-line</u>;</strong> - As sequências de espaço em branco são acumuladas em só uma, as quebras de linha são mantidas igual a escrita no HTML, preserva o limite do container;</li>
+                    <li><strong><u>pre-wrap</u>;</strong> - Os espaços em branco e as quebras de linha são mantidas igual a escrita no HTML, preserva o limite do container exceto os espaços;</li>
+                    <li><strong><u>break-spaces</u>;</strong> - Os espaços em branco e as quebras de linha são mantidas igual a escrita no HTML, preserva o limite do container incluíndo os espaços.</li>
+                </ul>
+            </li>
+            <li><strong><u>world-wrap</u>:</strong> - Define se o texto será quebrado ao ultrapassar os limites do contâiner, tem preferência por espaços.
+                <ul>
+                    <li><strong><u>normal</u>;</strong> - Não quebra a palavra e ignora o container, esperando a palavra terminar para quebrar a linha;</li>
+                    <li><strong><u>break-word</u>;</strong> - Quebra a palavra no caractere que ultrapassa os limites do container, tem preferência por espaços no texto.</li>
+                </ul>
+            </li>
+            <li><strong><u>world-break</u>:</strong> - Define se o texto será quebrado ao ultrapassar os limites do contâiner, ignora espaços.
+                <ul>
+                    <li><strong><u>normal</u>;</strong> - Não quebra a palavra e ignora o container, esperando a palavra terminar para quebrar a linha;</li>
+                    <li><strong><u>break-all</u>;</strong> - Quebra a palavra no caractere que ultrapassa os limites do container, não tem preferência pelos espaços no texto;</li>
+                    <li><strong><u>keep-all</u>;</strong> - Quebra a palavra no caractere que ultrapassa os limites do container, não tem preferência pelos espaços no texto e não quebra em caso de letras orientais.</li>
+                </ul>
+            </li>
+            <li><strong><u>writing-mode</u>:</strong> - Define a orientação do texto.
+                <ul>
+                    
                 </ul>
             </li>
         </ul>

@@ -38,7 +38,7 @@ mark{
     
     color:#F0DB4F;
 
-    padding:10px 0px 10px 0px;
+    padding:1px 0px 10px 0px;
     max-width: 1080px;
     height: 100px;
     margin:auto;
@@ -50,7 +50,7 @@ mark{
     font-weight: bold;
     font-size: 35px;
 
-    text-align: center;
+    text-indent: 25%;
 }
 
 #header, #left-side-menu {
