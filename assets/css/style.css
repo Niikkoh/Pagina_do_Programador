@@ -19,6 +19,8 @@ body{
 h2 {
     font-weight: bold;
 
+    text-shadow: 8px 5px 10px rgba(0, 0, 0, 1);
+
     margin-left: 20px;
     color: #D72E82;
 }
@@ -77,6 +79,8 @@ mark{
     background-color: rgba(255, 255, 255, 0.62);
 
     border-radius: 50%;
+
+    box-shadow: inset 3.5px 4px 5px 2px rgba(0, 0, 0, 0.6), 3.5px 4px 5px 2px rgba(0, 0, 0, 1);
 }
 
 #logo img{
@@ -107,6 +111,10 @@ mark{
 
 #wiki ul li{
     background: rgba(255, 255, 255, 0.03);
+}
+
+#wiki > ul {
+    box-shadow: inset 7px 7px 10px 2px rgba(0, 0, 0, 0.3), 10px 10px 8px 2px rgba(0, 0, 0, 1);
 }
 
 #wiki > ul > li{
