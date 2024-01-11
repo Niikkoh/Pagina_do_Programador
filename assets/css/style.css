@@ -1,3 +1,5 @@
+@import url('./reset.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
@@ -17,6 +19,8 @@ body{
 }
 
 h2 {
+    padding: 10px 0px;
+
     font-weight: bold;
 
     text-shadow: 8px 5px 10px rgba(0, 0, 0, 1);
@@ -25,8 +29,9 @@ h2 {
     color: #D72E82;
 }
 
-p{    
+p{
     color: #b2b2b2;
+    padding: 5px 0px;
 }
 
 mark{
@@ -48,6 +53,8 @@ mark{
 }
 
 #header h1{
+
+    padding: 20px;
 
     font-weight: bold;
     font-size: 35px;
@@ -100,6 +107,8 @@ mark{
 
     padding: 30px;
 
+    margin: 30px 0px;
+
     border-image: linear-gradient(#ffffff, #D72E82)
                   5 / 2px / 2
                   stretch;
@@ -129,6 +138,10 @@ mark{
     border: thin solid rgba(255, 255, 255, 0.219);
 }
 
+#wiki ul li ul{
+    margin-left: 20px;
+}
+
 #wiki li strong, #wiki li mark {
     
     color: #2087d6;
@@ -148,12 +161,15 @@ mark{
 
 
 #left-side-menu{
+
     max-width: 130px;
-    min-height: 25px;
+    min-height: 40px;
     margin: auto;
-    padding: 5px 0px;
+
+    padding: 0px 0px;
 }
  #left-side-menu a{
+    
     color:#F0DB4F;
  }
 
@@ -162,11 +178,17 @@ mark{
     height: 350px;
 
     margin: auto;
+    
     padding: 20px 20px;
+}
+
+#list-pages h2{
+    margin-left: 0px;
 }
 
 #left-side-menu, #list-pages{
     background-color: #343434;
+    text-align: center;
 }
 
 
