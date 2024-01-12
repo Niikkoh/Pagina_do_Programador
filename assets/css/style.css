@@ -62,7 +62,7 @@ mark{
     text-indent: 25%;
 }
 
-#header, #left-side-menu {
+#header{
     
     background: url('../images/background-header.jpg')
                 #353435
@@ -103,12 +103,8 @@ mark{
     margin: auto;
 }
 
-#wiki > ul{
-
-    padding: 30px;
-
-    margin: 30px 0px;
-
+#wiki > ul, #left-side-menu{
+    
     border-image: linear-gradient(#ffffff, #D72E82)
                   5 / 2px / 2
                   stretch;
@@ -116,6 +112,13 @@ mark{
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgb(215, 46, 130, 0.1))
                 center/cover
                 no-repeat;
+}
+
+#wiki > ul{
+
+    padding: 30px;
+
+    margin: 30px 0px;
 }
 
 #wiki ul li{
@@ -163,7 +166,7 @@ mark{
 #left-side-menu{
 
     max-width: 130px;
-    min-height: 40px;
+    height: 30px;
     margin: auto;
 
     padding: 0px 0px;
