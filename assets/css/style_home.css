@@ -1,0 +1,193 @@
+@import url(./style.css);
+
+/*=================================*/
+          /*Header Home*/
+
+#header_home{
+
+    max-width: 1920px;
+    min-height: 500px;
+
+    border-bottom: 1px solid #D72E82;;
+    color: #ffffff;
+
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+
+    margin: auto;
+}
+
+#header_home h1{
+
+
+    max-width: 700px;
+    padding-top: 100px;
+    margin: auto;
+
+    font-size: 70px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    line-height: 70px;
+
+    word-wrap: break-word;
+
+}
+
+#header_home p{
+
+    max-width: 500px;
+    padding-top: 60px;
+    margin: auto;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*=================================*/
+          /*list info*/
+
+.list_info{
+
+    max-width: 1920px;
+    min-height: 200px;
+    margin:auto;
+
+    border-bottom: 1px solid #D72E82;
+}
+
+.list_info h2{
+
+    color: #D72E82;
+
+    max-width: 800px;
+    padding-top: 80px;
+    margin: auto;
+
+    font-size: 35px;
+    letter-spacing: 12px;
+    line-height: 40px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    word-wrap: break-word;
+
+}
+
+/*=================================*/
+          /*language info*/
+.language_info{
+
+    max-width: 1920px;
+    height: 400px;
+    margin: auto;
+
+    padding-top: 50px;
+
+    border-bottom: 1px solid #D72E82;
+}
+
+.language_info p{
+
+    max-width: 200px;
+    height: 40px;
+
+    margin: 60px auto 0px;
+    border: 2px solid rgba(0, 0, 0);
+
+    font-size: 25px;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.language_info a{
+
+    color: black;
+    text-decoration: none;
+}
+
+#javascript{
+
+    background: linear-gradient(rgb(255, 236, 25), rgb(231, 158, 21));
+
+}
+
+#html5{
+
+    background: linear-gradient(rgb(252, 143, 0), rgb(107, 61, 0));
+}
+
+#css3{
+
+    background: linear-gradient(rgb(0, 118, 252), rgb(1, 36, 76));
+}
+
+/*=================================*/
+          /*logo*/
+
+.logo{
+
+    width: 100px;
+    height: 100px;
+    
+    padding: 40px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    margin: 0px auto 0px;
+
+}
+
+#javascript .logo{
+    
+    background: rgba(242, 159, 96, 0.2);
+}
+
+#html5 .logo{
+
+    background: rgba(236, 114, 14, 0.2);
+}
+
+#css3 .logo{
+    background: rgba(14, 166, 236, 0.2);
+}
+
+.logo img{
+
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+/*=================================*/
+          /*footer*/
+
+footer {
+
+    max-width: 1920px;
+    height: 80px;
+
+    padding-top: 30px;
+    margin: auto;
+}
+
+footer p{
+
+    text-transform: capitalize;
+    text-align: center;
+}
+
+footer a{
+
+    color: #D72E82;
+
+    text-decoration: none;
+}

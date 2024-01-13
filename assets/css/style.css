@@ -23,8 +23,6 @@ h2 {
 
     font-weight: bold;
 
-    text-shadow: 8px 5px 10px rgba(0, 0, 0, 1);
-
     margin-left: 20px;
     color: #D72E82;
 }
@@ -194,23 +192,6 @@ mark{
     text-align: center;
 }
 
-
-/*=============================================*/
-
-/*[atrib]*/
-[title = "Javascript"]{
-    color:#F0DB4F;
-}
-
-/*[atrib]*/
-[title = "HTML5"]{
-    color:#F06529;
-}
-
-/*[atrib]*/
-[title = "CSS3"]{
-    color:#65BCFF;
-}
 
 /*=============================================*/
 

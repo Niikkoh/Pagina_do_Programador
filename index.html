@@ -6,38 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style_home.css">
 
 </head>
 
 <body>
     
-    <div id="header">
+    <header id="header_home">
         <h1>//Página do programador</h1>
-    </div>
 
-    <div id="wiki">
-        <p>/* Decorar cada santo comando que aparecer ao longo de sua carreira é insanidade. <br> <br>
-            Abaixo encontra-se um <b>dicionário de comandos</b> para eventuais consultas, sinta-se a vontade! */</p>
-    </div>
-        
-    <div id="list-pages">
-        <h2>Linguagens de programação: </h2>
+        <p>/* Decorar cada santo comando que aparecer ao longo de sua carreira é insanidade. */ <br> <br>
+           /* Abaixo encontra-se um dicionário de comandos para eventuais consultas, sinta-se a vontade! */</p>
 
-        <ul>
-            <li><a title="Javascript" href="./javaScript_wiki.html">JavaScript</a></li>
-        </ul>
+    </header>
 
-        <h2>Linguagens de marcação: </h2>
-        <ul>
-            <li><a title="HTML5" href="./HTML5_wiki.html">HTML5</a></li>
-        </ul>
+    <main>
+        <div class="list_info">
+            <h2>Linguagens de programação: </h2>
+        </div>
 
-        <h2>Linguagens de estilo: </h2>
-        <ul>
-            <li><a title="CSS3" href="./CSS3_wiki.html">CSS3</a></li>
-        </ul>
-    </div>
+        <div class="language_info" id="javascript">
+            <div class="logo">
+                <img src="./assets/images/javacript.png" />
+            </div>
+            <p><a href="./javaScript_wiki.html">JavaScript</a></p>
+        </div>
+
+        <div class="list_info">
+            <h2>Linguagens de marcação: </h2>
+        </div>
+
+        <div class="language_info" id="html5">
+            <div class="logo">
+                <img src="./assets/images/HTML.png" />
+            </div>
+            <p><a href="./HTML5_wiki.html">HTML5</a></p>
+        </div>
+
+        <div class="list_info">
+            <h2>Linguagens de estilo: </h2>
+        </div>
+
+        <div class="language_info" id="css3">
+            <div class="logo">
+                <img src="./assets/images/CSS.png" />
+            </div>
+            <p><a href="./CSS3_wiki.html">CSS3</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Site desenvolvido pelo <a href="https://github.com/nicolas2000vp"> Nicolas Pereira.</a></p>
+    </footer>
+
 </body>
 
 </html>
