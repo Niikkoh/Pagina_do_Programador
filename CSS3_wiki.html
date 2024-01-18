@@ -6,31 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS3 wiki</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style_wiki_pages.css">
 
 </head>
 
 <body>
 
-    <div id="header">
-        <h1 title="CSS3">//CSS3</h1>
-    </div>
+    <header id="header">
+        
+        <h1 style= "color: rgba(14, 166, 236);">//CSS</h1>
 
-    <div id="logo">
-        <img src="./assets/images/CSS.png" />
-    </div>
+        <div id="button_back">
+            <p><a href="./index.html">Voltar</a></p>
+        </div>
 
-    <div id="left-side-menu">
-        <ul>
-            <li><a href="./index.html">Voltar</a></li>
-        </ul>
-    </div>
+    </header>
 
-    <div id="wiki">
+    <body id="wiki">
 
-
-        <h2>Seletores CSS:</h2>
-        <p>/*Define quais elementos que serão estilizados.*/</p>
+        <div class="list_info">
+            <h2>Seletores CSS:</h2>
+            <p>/*Define quais elementos que serão estilizados.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>Seletor por tipo</u>:</strong> Busca elementos por uma tag HTML específica;</li>
@@ -57,8 +54,10 @@
             </li>
         </ul>
 
-        <h2>Combinadores e agrupador de seletores:</h2>
-        <p>/*Explicita o tipo de relação entre 2 ou mais seletores*/</p>
+        <div class="list_info">
+            <h2>Combinadores e agrupador de seletores:</h2>
+            <p>/*Explicita o tipo de relação entre 2 ou mais seletores*/</p>
+        </div>
 
         <ul>
             <li><strong><u>Agrupador de seletores <mark>(,)</mark></u>:</strong> As regras CSS serão aplicadas para
@@ -75,8 +74,10 @@
                 seletor especificado</li>
         </ul>
 
-        <h2>Regras CSS:</h2>
-        <p>/*Regras definidas para o arquivo CSS.*/</p>
+        <div class="list_info">
+            <h2>Regras CSS:</h2>
+            <p>/*Regras definidas para o arquivo CSS.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>@font-face</u> </strong> - Declara uma fonte personalizada para uso.
@@ -94,8 +95,10 @@
             <li><strong><u>@import url(' <mark>[Link]</mark> ');</u> </strong> - Importa um código já escrito. </li>
         </ul>
 
-        <h2>Palavras chaves comuns:</h2>
-        <p>/*Palavras chaves que são aceitas como atributo em diversas propriedades no CSS.*/</p>
+        <div class="list_info">
+            <h2>Palavras chaves comuns:</h2>
+            <p>/*Palavras chaves que são aceitas como atributo em diversas propriedades no CSS.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>auto</u>;</strong> - Defini um valor automático considerado apropriado para a propriedade do
@@ -105,8 +108,10 @@
                 pai.</li>
         </ul>
 
-        <h2>Cores:</h2>
-        <p>/*Existem várias formas de definir cores utilizando o CSS.*/</p>
+        <div class="list_info">
+            <h2>Cores:</h2>
+            <p>/*Existem várias formas de definir cores utilizando o CSS.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>Cores pré-definidas</u>:</strong> Cores já pré-definidas pelos navegador, com cerca de 140
@@ -130,8 +135,10 @@
                 da cor, de 0 a 1.</li>
         </ul>
 
-        <h2>Propriedades de dimensionamento:</h2>
-        <p>/*Propriedades que envolvem o dimensionamento de elementos no layout da página.*/</p>
+        <div class="list_info">
+            <h2>Propriedades de dimensionamento:</h2>
+            <p>/*Propriedades que envolvem o dimensionamento de elementos no layout da página.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>width</u>:</strong> - Define a largura do elemento;</li>
@@ -176,8 +183,10 @@
             </li>
         </ul>
 
-        <h2>Propriedades de formatação de objeto:</h2>
-        <p>/*Propriedas que envolvem a manipulação de objetos.*/</p>
+        <div class="list_info">
+            <h2>Propriedades de formatação de objeto:</h2>
+            <p>/*Propriedas que envolvem a manipulação de objetos.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>object-fit</u>:</strong> - Ajusta o objeto dentro de um container.
@@ -218,8 +227,10 @@
             </li>
         </ul>
 
-        <h2>Propriedades de background:</h2>
-        <p>/*Propriedas que envolvem a manipulação de um background de um container.*/</p>
+        <div class="list_info">
+            <h2>Propriedades de background:</h2>
+            <p>/*Propriedas que envolvem a manipulação de um background de um container.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>background</u>:</strong> - propriedade resumida de outras propriedades que envolvam background;</li>
@@ -287,8 +298,10 @@
             <li><strong><u>background-blend-mode</u>:</strong> - Defini como as imagens estabelecidas como background devem se mesclar;</li>
         </ul>
 
-        <h2>Propriedades de borda:</h2>
-        <p>/*Propriedades que envolve manipular as bordas do container.*/</p>
+        <div class="list_info">
+            <h2>Propriedades de borda:</h2>
+            <p>/*Propriedades que envolve manipular as bordas do container.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>border</u>: </strong> - propriedade resumida de outras propriedades que envolvem bordas;</li>
@@ -336,8 +349,10 @@
             </li>
         </ul>
 
-        <h2>Propriedades de formatação de texto:</h2>
-        <p>/*Propriedas que envolvem a formatação de texto.*/</p>
+        <div class="list_info">
+            <h2>Propriedades de formatação de texto:</h2>
+            <p>/*Propriedas que envolvem a formatação de texto.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>font</u>:</strong> - Propriedade resumida de fontes; </li>
@@ -459,8 +474,10 @@
 
         </ul>
 
-        <h2>Propriedades de estilização:</h2>
-        <p>/*Propriedas que envolvem a estilização de elementos.*/</p>
+        <div class="list_info">
+            <h2>Propriedades de estilização:</h2>
+            <p>/*Propriedas que envolvem a estilização de elementos.*/</p>
+        </div>
 
         <ul>
             <li><strong><u>color:<mark>[cor]</mark>;</u></strong> - Define a cor do texto.</li>
@@ -476,8 +493,15 @@
                 </ul>
             </li>
         </ul>
+    </body>
 
-    </div>
+    <footer>
+        <p>Site desenvolvido pelo <a href="https://github.com/nicolas2000vp"> Nicolas Pereira.</a></p>
+
+        <div id="button_back">
+            <p><a href="./index.html">Voltar</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>

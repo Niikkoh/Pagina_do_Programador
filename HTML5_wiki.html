@@ -6,29 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 Wiki</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style_wiki_pages.css">
 
 </head>
 
 <body>
-    <div id="header">
-        <h1 title="HTML5">//HTML5 </h1>
-    </div>
 
-    <div id="logo">
-        <img src="./assets/images/HTML.png" />
-    </div>
+    <header id="header">
+        <h1 style= "color: rgb(252, 143, 0);">//HTML5 </h1>
 
-    <div id="left-side-menu">
-        <ul>
-            <li><a href="./index.html">Voltar</a></li>
-        </ul>
-    </div>
+        <div id="button_back">
+            <p><a href="./index.html">Voltar</a></p>
+        </div>
+    </header>
 
-    <div id="wiki">
-        <h2>Principais tags:</h2>
-        <p><b>&lt;!--Tags mais comuns do HTML5.--&gt;</b></p>
+    <body id="wiki">
 
+        <div class="list_info">
+            <h2>Principais tags:</h2>
+            <p>&lt;!--Tags mais comuns do HTML5.--&gt;</p>
+        </div>
+        
         <ul>
             <li><strong><u>&lt;html&gt;</u>:</strong> O navegador interpreta seu conteúdo como HTML; </li>
             <li><strong><u>&lt;head&gt;</u>:</strong> Informações que o navegador vai carregar antes de exibir pro
@@ -56,8 +54,10 @@
             <li><strong><u>&lt;span&gt;</u>:</strong> semelhante ao div, com a diferença de não gerar um display: block.</li>
         </ul>
 
-        <h2>Principais atributos de tags:</h2>
-        <p><b>&lt;!--Atributos que podem ser integrados a qualquer tag.--&gt;</b></p>
+        <div class="list_info">
+            <h2>Principais atributos de tags:</h2>
+            <p>&lt;!--Atributos que podem ser integrados a qualquer tag.--&gt;</p>
+        </div>
 
         <ul>
             <li><strong><u>id</u>= " <mark>[nome do identificador]</mark> ": </strong> Identificador do elemento, usado
@@ -68,8 +68,10 @@
                 mesmo nome da classe a um estilo CSS predefinido.</li>
         </ul>
 
-        <h2>Tags de formatação:</h2>
-        <p><b>&lt;!--Tags que envolvem formatação de texto e da página.--&gt;</b></p>
+        <div class="list_info">
+            <h2>Tags de formatação:</h2>
+            <p>&lt;!--Tags que envolvem formatação de texto e da página.--&gt;</p>
+        </div>
 
         <ul>
 
@@ -102,8 +104,10 @@
             <li><strong><u>&lt;legend&gt;</u>:</strong> adiciona um título ao fieldset.</li>
         </ul>
 
-        <h2>Tags para listas ou tabelas:</h2>
-        <p><b>&lt;!--Tags que envolvem implementação de listas ou tabelas.--&gt;</b></p>
+        <div class="list_info">
+            <h2>Tags para listas ou tabelas:</h2>
+            <p>&lt;!--Tags que envolvem implementação de listas ou tabelas.--&gt;</p>
+        </div>
 
         <ul>
             <li><strong><u>&lt;ol&gt;</u>:</strong> Define uma lista ordenada; </li>
@@ -111,11 +115,12 @@
             <li><strong><u>&lt;li&gt;</u>:</strong> Define um item da lista. </li>
         </ul>
 
-        <h2>Tags de formulário:</h2>
-        <p><b>&lt;!--Tags usadas para preeenchimento de formulário / entrada de dados pelo usuário.--&gt;</b></p>
+        <div class="list_info">
+            <h2>Tags de formulário:</h2>
+            <p>&lt;!--Tags usadas para preeenchimento de formulário / entrada de dados pelo usuário.--&gt;</p>
+        </div>
 
         <ul>
-
             <li><strong><u>&lt;form&gt;</u>:</strong> Define um formulário;
                 <ul>
                     <li><strong><u>name</u>= "<mark>[Nome do formulário]</mark>":</strong> Nome do formulário, usado
@@ -227,8 +232,10 @@
             </li>
         </ul>
 
-        <h2>Tags de mídia:</h2>
-        <p><b>&lt;!--Tags usadas para manipulação de dados de mídia.--&gt;</b></p>
+        <div class="list_info">
+            <h2>Tags de mídia:</h2>
+            <p>&lt;!--Tags usadas para manipulação de dados de mídia.--&gt;</p>
+        </div>
 
         <ul>
             <li><strong><u>&lt;a&gt;</u>:</strong> Gera um texto com link.
@@ -313,8 +320,10 @@
             <li><strong><u>&lt;embed&gt;</u>:</strong> Embedar o conteúdo no site. (CAIU EM DESUSO)</li>
         </ul>
 
-        <h2>Atributos de evento em tags:</h2>
-        <p><b>&lt;!--Atributos que acionam um comando em JavaScript ao ocorrer determinado evento.--&gt;</b></p>
+        <div class="list_info">
+            <h2>Atributos de evento em tags:</h2>
+            <p><b>&lt;!--Atributos que acionam um comando em JavaScript ao ocorrer determinado evento.--&gt;</b></p>
+        </div>
 
         <ul>
             <li><strong><u>onclick</u>= " <mark>[Comando JavaScript]</mark> ": </strong> Aciona ao clicar com o mouse;
@@ -324,7 +333,15 @@
             <li><strong><u>onmouseover</u>= " <mark>[Comando JavaScript]</mark> ": </strong> Aciona ao passar o mouse
                 sobre.</li>
         </ul>
-    </div>
+    </body>
+
+    <footer>
+        <p>Site desenvolvido pelo <a href="https://github.com/nicolas2000vp"> Nicolas Pereira.</a></p>
+
+        <div id="button_back">
+            <p><a href="./index.html">Voltar</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>

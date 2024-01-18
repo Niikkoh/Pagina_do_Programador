@@ -4,6 +4,7 @@
 
 
 /*=============================================*/
+                    /*Generic*/
 * {
     font-family: "Ubuntu Mono";
     font-weight: normal;
@@ -11,188 +12,104 @@
 
     line-height: 1.5;
 }
-/*=============================================*/
-
+   
 body{
     color: #ffffff;
     background-color: #202124;
 }
 
-h2 {
-    padding: 10px 0px;
-
-    font-weight: bold;
-
-    margin-left: 20px;
-    color: #D72E82;
-}
-
 p{
     color: #b2b2b2;
-    padding: 5px 0px;
 }
 
 mark{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/*=============================================*/
-
+/*=================================*/
+          /*Header*/
 
 #header{
-    
-    color:#F0DB4F;
 
-    padding:1px 0px 10px 0px;
-    max-width: 1080px;
-    height: 100px;
-    margin:auto;
-    box-sizing: border-box;
+    max-width: 1920px;
+
+    border-bottom: 1px solid #D72E82;;
+    color: #ffffff;
+
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+
+    margin: auto;
 }
 
 #header h1{
 
-    padding: 20px;
+    max-width: 700px;
+    margin: auto;
 
     font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    line-height: 70px;
+
+    word-wrap: break-word;
+
+}
+
+/*=================================*/
+          /*list info*/
+
+.list_info{
+
+    max-width: 1920px;
+    margin:auto;
+
+    border-bottom: 1px solid #D72E82;
+    border-top: 1px solid #D72E82;
+}
+
+.list_info h2{
+
+    color: #D72E82;
+
+    max-width: 800px;
+    margin: auto;
+
     font-size: 35px;
+    letter-spacing: 12px;
+    line-height: 40px;
 
-    text-indent: 25%;
+    text-transform: uppercase;
+    text-align: center;
+
+    word-wrap: break-word;
+
 }
 
-#header{
-    
-    background: url('../images/background-header.jpg')
-                #353435
-                center / cover
-                no-repeat;
-            
-    background-blend-mode:color-burn;
-}
+/*=================================*/
+          /*footer*/
 
-#logo {
+footer {
 
-    height: 100px;
-    width: 100px;
+    max-width: 1920px;
+    height: 80px;
 
-    margin:20px auto;
-    border: 5px solid rgb(81, 81, 81);
-    padding: 8px;
-
-    box-sizing: border-box;
-
-    background-color: rgba(255, 255, 255, 0.62);
-
-    border-radius: 50%;
-
-    box-shadow: inset 3.5px 4px 5px 2px rgba(0, 0, 0, 0.6), 3.5px 4px 5px 2px rgba(0, 0, 0, 1);
-}
-
-#logo img{
-    height: 100%;
-    width: 100%;
-    
-    object-fit: contain;
-    object-position: 50% 50%;
-}
-
-#wiki {
-    max-width: 1080px;
-    margin: auto;
-}
-
-#wiki > ul, #left-side-menu{
-    
-    border-image: linear-gradient(#ffffff, #D72E82)
-                  5 / 2px / 2
-                  stretch;
-
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgb(215, 46, 130, 0.1))
-                center/cover
-                no-repeat;
-}
-
-#wiki > ul{
-
-    padding: 30px;
-
-    margin: 30px 0px;
-}
-
-#wiki ul li{
-    background: rgba(255, 255, 255, 0.03);
-}
-
-#wiki > ul {
-    box-shadow: inset 7px 7px 10px 2px rgba(0, 0, 0, 0.3), 10px 10px 8px 2px rgba(0, 0, 0, 1);
-}
-
-#wiki > ul > li{
-    font-size: large;
-}
-
-#wiki li{
-    margin-top: 10px;
-
-    font-size: smaller;
-
-    border: thin solid rgba(255, 255, 255, 0.219);
-}
-
-#wiki ul li ul{
-    margin-left: 20px;
-}
-
-#wiki li strong, #wiki li mark {
-    
-    color: #2087d6;
-}
-
-#wiki li li strong, #wiki li li mark {
-    color: #65BCFF;
-}
-
-#wiki li li li strong, #wiki li li li mark {
-    color: #a3d4fa;
-}
-
-#wiki li li li li strong, #wiki li li li li mark {
-    color: #c6e7ff;
-}
-
-
-#left-side-menu{
-
-    max-width: 130px;
-    height: 30px;
+    padding-top: 30px;
     margin: auto;
 
-    padding: 0px 0px;
-}
- #left-side-menu a{
-    
-    color:#F0DB4F;
- }
-
-#list-pages{
-    width: 415px;
-    height: 350px;
-
-    margin: auto;
-    
-    padding: 20px 20px;
+    border-top: 1px solid #D72E82;
 }
 
-#list-pages h2{
-    margin-left: 0px;
-}
+footer p{
 
-#left-side-menu, #list-pages{
-    background-color: #343434;
+    text-transform: capitalize;
     text-align: center;
 }
 
+footer a{
 
-/*=============================================*/
+    color: #D72E82;
 
-
+    text-decoration: none;
+}

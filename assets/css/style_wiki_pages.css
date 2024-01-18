@@ -1,0 +1,133 @@
+@import url('./style.css');
+
+/*=================================*/
+         /*Header Pages*/
+
+#header {
+
+    min-height: 200px;
+
+}
+
+#header h1{
+
+    padding-top: 55px;
+
+    font-size: 45px;
+}
+
+/*=================================*/
+          /*list info*/
+
+.list_info {
+
+    min-height: 130px;
+}
+
+.list_info h2{
+
+    padding-top: 30px;
+    letter-spacing: 10px;
+
+    font-size: 30px;
+}
+
+.list_info p{
+
+    max-width: 800px;
+    margin: 10px auto 30px;
+
+    font-size: 15px;
+    text-align: center;
+
+    word-wrap: break-word;
+}
+
+
+/*=================================*/
+     /*Button back for homepage*/
+
+#button_back {
+
+    max-width: 100px;
+    height: 25px;
+    margin: 20px auto;
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#button_back p{
+
+    text-align: center;
+}
+
+#button_back a{
+    
+    color: white;
+    text-decoration: none;
+ }
+
+/*=================================*/
+             /*Wiki*/
+
+#wiki {
+    max-width: 1920px;
+    margin: auto;
+}
+
+#wiki > ul {
+
+    max-width: 1080px;
+    
+    padding: 30px;
+    margin: 30px auto;
+
+    border-image: linear-gradient(#ffffff, #D72E82)
+                  5 / 2px / 2
+                  stretch;
+
+    box-shadow: inset 7px 7px 10px 2px rgba(0, 0, 0, 0.3), 10px 10px 8px 2px rgba(0, 0, 0, 1);
+
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgb(215, 46, 130, 0.1))
+                center/cover
+                no-repeat;
+}
+
+#wiki li{
+    margin-top: 10px;
+
+    font-size: smaller;
+
+    border: thin solid rgba(255, 255, 255, 0.219);
+}
+
+#wiki ul li{
+    background: rgba(255, 255, 255, 0.03);
+}
+
+#wiki > ul > li{
+    font-size: large;
+}
+
+
+#wiki ul li ul{
+    margin-left: 20px;
+}
+
+#wiki li strong, #wiki li mark {
+    
+    color: #2087d6;
+}
+
+#wiki li li strong, #wiki li li mark {
+    color: #65BCFF;
+}
+
+#wiki li li li strong, #wiki li li li mark {
+    color: #a3d4fa;
+}
+
+#wiki li li li li strong, #wiki li li li li mark {
+    color: #c6e7ff;
+}

@@ -1,41 +1,22 @@
 @import url(./style.css);
 
+
 /*=================================*/
-          /*Header Home*/
+          /*header*/
 
-#header_home{
+#header {
 
-    max-width: 1920px;
     min-height: 500px;
-
-    border-bottom: 1px solid #D72E82;;
-    color: #ffffff;
-
-    background: linear-gradient(transparent, rgba(255, 255, 255, 0.1));
-
-    margin: auto;
 }
 
-#header_home h1{
+#header h1{
 
-
-    max-width: 700px;
     padding-top: 100px;
-    margin: auto;
 
     font-size: 70px;
-    font-weight: bold;
-
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 15px;
-    line-height: 70px;
-
-    word-wrap: break-word;
-
 }
 
-#header_home p{
+#header p{
 
     max-width: 500px;
     padding-top: 60px;
@@ -51,36 +32,22 @@
 /*=================================*/
           /*list info*/
 
-.list_info{
+.list_info {
 
-    max-width: 1920px;
     min-height: 200px;
-    margin:auto;
-
-    border-bottom: 1px solid #D72E82;
 }
 
 .list_info h2{
-
-    color: #D72E82;
-
-    max-width: 800px;
+    
     padding-top: 80px;
-    margin: auto;
+    letter-spacing: 12px;
 
     font-size: 35px;
-    letter-spacing: 12px;
-    line-height: 40px;
-
-    text-transform: uppercase;
-    text-align: center;
-
-    word-wrap: break-word;
-
 }
 
 /*=================================*/
           /*language info*/
+
 .language_info{
 
     max-width: 1920px;
@@ -88,8 +55,6 @@
     margin: auto;
 
     padding-top: 50px;
-
-    border-bottom: 1px solid #D72E82;
 }
 
 .language_info p{
@@ -131,7 +96,7 @@
 }
 
 /*=================================*/
-          /*logo*/
+            /*logo*/
 
 .logo{
 
@@ -168,26 +133,4 @@
 }
 
 /*=================================*/
-          /*footer*/
 
-footer {
-
-    max-width: 1920px;
-    height: 80px;
-
-    padding-top: 30px;
-    margin: auto;
-}
-
-footer p{
-
-    text-transform: capitalize;
-    text-align: center;
-}
-
-footer a{
-
-    color: #D72E82;
-
-    text-decoration: none;
-}
