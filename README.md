@@ -5,7 +5,3 @@ Em formato de um site da web, esse projeto visa ser um mapa com as principais si
 Será util para eventuais consultas ao desenvolver projetos.
 
 A página será atualizada de forma recorrente conforme meu conhecimento em programação se expande.
-
-
-
-
